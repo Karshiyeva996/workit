@@ -1,0 +1,227 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+
+    --Dark-Purple: #24053E;
+    --Eucaplyptus: #44FFA1;
+    --Davys-Grey: #584D62;
+    --Ghost-White: #FCF8FF;
+    --White: #FFF;
+    --Manrope: "Manrope";
+    --Fraunces: "Fraunces";
+}
+
+body {
+    font-family: var(--Manrope);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.container {
+    max-width: 1144px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.all-btn {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--Eucaplyptus);
+    width: max-content;
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: var(--Manrope);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    transition: .5s;
+}
+
+.all-btn:hover {
+    background-color: var(--Dark-Purple);
+    color: var(--Eucaplyptus);
+    border: 2px solid var(--Eucaplyptus, #44FFA1);
+    cursor: pointer;
+}
+
+.site-header__App {
+    color: var(--White, #FFF);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border-bottom: 2px solid var(--Eucaplyptus);
+} 
+.site-header__App:hover {
+    color: var(--Eucaplyptus);
+    
+}
+
+.site-header-hero {
+    background-color: var(--Dark-Purple);
+
+}
+
+.site-header__logo {
+    width: 95px;
+    height: 24px;
+    object-fit: cover;
+
+
+}
+
+.site-hero__title {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--Fraunces);
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+
+} 
+
+.site-hero__line{
+    text-decoration: underline ;
+    text-decoration-color: var(--Eucaplyptus);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-main__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 26px;
+    margin-top: 50px;
+}
+
+.site-main__title {
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: var(--Fraunces);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.site-main__desc {
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--Manrope);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.site-main__number {
+   justify-content:center ;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30.5px;
+    border: 1px solid var(--Davys-Grey, #584D62);
+    display: inline-block;
+
+} 
+.main-sec__img {
+    width: 450.287px;
+    height: 453px;
+    flex-shrink: 0;
+    border-radius: 250px;
+    background-color: var(--Eucaplyptus);
+    margin-top: 143px;
+      
+
+} 
+.section-content {
+    width: 730px;
+height: 413px;
+flex-shrink: 0;
+background-color: var(--Dark-Purple);
+padding: 64px;
+margin-top: 60px;
+} 
+.section-title {
+    color: var(--White, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+
+
+font-family: var(--Fraunces);
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+} 
+.section-desc {
+    color: var(--White, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Body */
+font-family: var(--Manrope);
+font-size: 18px;
+font-weight: 400;
+line-height: 32px; 
+margin-top: 32px;
+margin-bottom: 32px;
+} 
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 110px;
+    margin-bottom: 110px;
+    
+} 
+.logo-img {
+    width: 95px;
+    height: 24px;
+    object-fit: cover;
+
+    color: var(--Dark-Purple);
+
+} 
+.footer-link {
+    display: flex;
+    column-gap: 20px;
+    color: var(--Davys-Grey);
+
+} 
+
+   
